@@ -1,3 +1,119 @@
+.top-nav li{margin: 0 8px;}
+.top-nav li.active{
+  background-color: #04a5e7;
+  border-radius: 4px;
+  color: #ffffff !important;
+}
+
+.top-nav li.active a{
+  color: #ffffff !important;
+}
+
+
+.top-nav li:hover{
+  background-color: #04a5e7;
+  border-radius: 4px;
+  color: #ffffff !important;
+}
+
+.top-nav li:hover a{
+  color: #ffffff !important;
+}
+
+
+.bg-blue{
+  background-color: #03a7e9;
+}
+
+.support .container{
+  position: relative
+}
+
+.support .supportWrapper{
+  width: 80%;
+  margin-left: 20%;
+}
+
+.support .pic{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.support .pic img{
+  height: 150px;
+}
+
+.support button{
+  color: white;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+
+.support button:hover, .support button:active, .support button:visited{
+  background-color: #038fc9 !important;
+  border: 1px solid #ffffff;
+}
+
+
+.testimonial .card{
+  border-radius: 8px !important;
+  position: relative;
+  padding-top: 60px !important;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: transform .5s ease 0s;
+  transition: transform .5s ease 0s;
+}
+.testimonial .card:hover{
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+
+.testimonial .name::before{
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: #c5c5c5;
+  margin-bottom: 8px;
+}
+
+.pictureContainer{
+  display: block;
+  position: absolute;
+  width: 112px;
+  top: 0;
+
+}
+
+.pictureContainer .quoteicon{
+  background-color: #03a7e9;
+  height: 40px;
+  width: 40px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.pictureContainer .picture{
+  width: 72px;
+  height: 72px;
+  float: left;
+  position: absolute;
+  right: 0;
+  top: -32px;
+}
+
+
+
 .testimonials{
   background: url("images/testimonials-bg.png") no-repeat left 0 ;
   background-size: 100%;
@@ -35,13 +151,13 @@
 
 .carousel-inner{
     width:100%;
-    max-height: 100vh !important;
+    max-height: calc(100vh - 78px) !important;
   }
 
 
 
   .carousel-caption{
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     text-align: left !important;
     width: 30% !important;
@@ -61,9 +177,7 @@
 
 .navbar .navbar-nav .active{
 position: relative;
-color:#04a5e7 !important;
-
-  }
+}
 
 
 .newsletter input[type="text"]{
@@ -219,7 +333,7 @@ color:#04a5e7 !important;
 
 
   .products .card{
-    -webkit-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
   transform: translateY(0px);
   -webkit-transition: transform .5s ease 0s;
   transition: transform .5s ease 0s;
@@ -303,7 +417,9 @@ color:#04a5e7 !important;
   background: #04a5e750;
 }
 
-
+.fuctions-item .title h3{
+  color: #04a5e7 !important;
+}
 
 
   .application .card{
@@ -570,6 +686,21 @@ color:#04a5e7 !important;
   margin: 0 40px;
 }
 
+.footerContact{
+
+}
+
+.footerContact .contactItems{
+  display: flex;
+}
+
+.footerContact .contactItems .icon{
+  margin-right: 16px;
+  border-right: 1px solid #ffffff50;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
 
 /* end of logo animation in css */
 
