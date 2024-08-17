@@ -395,7 +395,7 @@ position: relative;
     top: 0;
     left: 0;
     right: 0;
-    height: 2px;
+    height: 1px;
     background: #00000020;
   }
 .fuctions-item .icon{
@@ -555,6 +555,12 @@ position: relative;
 
   .footer{
     background-color: #000000;
+  }
+
+
+  .footer .container .navlinks li{
+      float: left;
+      list-style: none;
   }
 
   .roboto-thin {
