@@ -712,6 +712,37 @@ position: relative;
   align-items: center;
 }
 
+
+.contactBtn:hover{
+  background-color: #038fc9 !important;
+}
+.contactUs .card:hover{
+  background-color: #f9f9f9 !important;
+}
+.contactUs .card .icon{
+  border: 1px solid #00000030;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactUs .card .icon span{
+  color: #04a5e7;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.contactUs .card:hover .icon span{
+transform: rotateY(180deg);
+}
+
+
+.contactUs .card .icon:hover{
+  border: 1px solid #04a5e7;
+}
+
 /* end of logo animation in css */
 
 
