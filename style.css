@@ -25,6 +25,10 @@
   background-color: #03a7e9;
 }
 
+.bg-light-grey{
+  background-color: #f9f9f9;
+}
+
 .support .container{
   position: relative
 }
@@ -450,7 +454,7 @@ position: relative;
   .commitments .card:hover, .features .card:hover{
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-    background-color: #f8f9fa!important;
+    background-color: #f9f9f9!important;
   }
 
   .commitments .card:hover .rounded-circle, .features .card:hover .rounded-circle{border: 1px solid #04a5e7 !important;}
