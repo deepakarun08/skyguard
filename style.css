@@ -1,4 +1,7 @@
 .top-nav li{margin: 0 8px;}
+
+
+
 .top-nav li.active{
   background-color: #04a5e7;
   border-radius: 4px;
@@ -19,6 +22,8 @@
 .top-nav li:hover a{
   color: #ffffff !important;
 }
+
+.top-nav li a{color: #161513 !important;}
 
 
 .bg-blue{
