@@ -667,6 +667,11 @@ position: relative;
     background-color: #000000;
   }
 
+  .footer .logo{
+    display: flex;
+    align-items: center;
+  }
+
 
   .footer .container .navlinks li{
       float: left;
