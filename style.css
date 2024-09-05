@@ -1,10 +1,6 @@
 .top-nav li{margin: 0 8px;}
 
 
-
-.top-nav li a{color: #161513 !important;}
-
-
 .bg-blue{
   background-color: #03a7e9;
 }
@@ -780,6 +776,26 @@ position: relative;
 
   .copyright{
     font-size: 11px !important;
+  }
+
+  .policyHeader{
+    background-color: #04a5e7;
+  }
+
+  .policyHeader h5{
+    margin-bottom: 0;
+  }
+
+  .policy-big-Header h1{
+    margin-bottom: 0;
+  }
+
+  .policy hr{
+    border-bottom: 1px solid #b9b9b9;
+  }
+
+  .policyBody ol li{
+    margin: 1rem;
   }
   
 
