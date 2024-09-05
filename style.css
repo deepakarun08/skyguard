@@ -2,27 +2,6 @@
 
 
 
-.top-nav li.active{
-  background-color: #04a5e7;
-  border-radius: 4px;
-  color: #ffffff !important;
-}
-
-.top-nav li.active a{
-  color: #ffffff !important;
-}
-
-
-.top-nav li:hover{
-  background-color: #04a5e7;
-  border-radius: 4px;
-  color: #ffffff !important;
-}
-
-.top-nav li:hover a{
-  color: #ffffff !important;
-}
-
 .top-nav li a{color: #161513 !important;}
 
 
@@ -31,7 +10,7 @@
 }
 
 .bg-light-grey{
-  background-color: #f3f3f3;
+  background-color: #f4f7fb;
 }
 
 .support .container{
@@ -91,6 +70,17 @@
   height: 1px;
   background-color: #c5c5c5;
   margin-bottom: 8px;
+}
+
+.applicationCaption{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+.applicationCaption h3{
+  font-weight: 700;
 }
 
 .pictureContainer{
@@ -181,8 +171,22 @@
 
 .productName{
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    color: #40c5f2;
   }
+
+.downloadAppWrapper{
+  margin-top: 48px;
+}
+
+.downloadApptext{
+  font-size: 18px;
+  color: #40c5f2;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
 
 .navbar .navbar-nav .active{
 position: relative;
@@ -223,11 +227,13 @@ position: relative;
 
   .contactBtn{
     font-size: .9rem !important;
-    background-color: #04a5e7 !important;
+    background-color: #40c5f2 !important;
     font-family: "Roboto", sans-serif;
     font-weight: 700 !important;
     border: none !important;
     line-height: 30px !important;
+    border-radius: 8px;
+    padding: 9px 24px;
   }
 
   .contactBtn:hover{
@@ -264,7 +270,7 @@ position: relative;
   }
   .card-subtitle{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     color: #8f8f94;
   }
   .card-title{
@@ -272,15 +278,18 @@ position: relative;
   }
 
   .team, .resent-post{
-    background: url("images/bg-img.png") left top no-repeat, url("images/bg-img-right.png") right bottom no-repeat;
+    
   }
 
   .team-card{
-    cursor: pointer;
+    border: none !important;
+    background-color: #f4f7fb !important;
+  }
+  .team-card img{
+    border-radius: 8px !important;
   }
 
   .team-card:hover{
-    box-shadow: 0 0 20px #00000020 !important;
   }
   .resent-post .card-date{
     font-size: 16px;
@@ -318,6 +327,7 @@ position: relative;
   .section-title h1{
     font-size: 42px;
     font-weight: 700;
+    text-transform: uppercase;
 
   }
 
@@ -325,6 +335,7 @@ position: relative;
     color: #038fc9 !important;
     font-size: 16px;
     font-weight: 700;
+    text-transform: uppercase;
   }
 
   .bg-image{
@@ -352,6 +363,46 @@ position: relative;
   .products .card:hover{
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+  }
+
+  .howItWorks{
+    background-color: #000000;
+    background-image: url(images/how-worksBG.jpg);
+  }
+
+  .howWorksImage{
+    width: 60%;
+    height: 344px;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .howWorksCardInner{
+    position: absolute !important;
+    top:10%;
+    background-color: #1d1f25 !important;
+    width: 90%;
+    height: 80%;
+    left: 70%;
+    color: #ffffff;
+    border-radius: 8px !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .howWorksCardInner .cardIcon span{
+    font-size: 3rem;
+    margin-bottom: 16px;
+  }
+
+  .howWorksCardInner .cardTitle{
+    color:#ffffff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .howWorksCardInner .description{
+    font-size: 13px;
   }
 
   .howItWorks .iconBox{
@@ -391,6 +442,10 @@ position: relative;
     transition: all 0.3s ease-out 0s;
     min-height: 372px;
     width: 90%;
+  }
+
+  .aboutSec .aboutSecImage{
+    border-radius: 8px;
   }
 
   .fuctions-item{
@@ -483,11 +538,30 @@ position: relative;
 
   .rounded-icon{
     border:1px solid #00000030;
-    width: 96px;
-    height: 96px;
+    width: 64px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .featuresIconLabel{
+    display: flex;
+    align-items: center;
+  }
+  .featuresIcon{
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+  .featuresLabel{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
   .statastics .row h1{
@@ -571,6 +645,8 @@ position: relative;
       float: left;
       list-style: none;
   }
+
+ 
 
   .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -731,6 +807,16 @@ position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.downloadAppIcons{
+  display: flex;
+  margin-top: 8px;
+}
+
+.prodFeatures{
+  background: rgb(6,93,131);
+  background: linear-gradient(90deg, rgba(6,93,131,1) 0%, rgba(31,135,177,1) 100%);
 }
 
 .contactUs .card .icon span{

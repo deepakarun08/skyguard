@@ -46,11 +46,11 @@
 
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light-grey navbar-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-light">
         <div class="container">
-
             <a class="navbar-brand" href="#"><img src="images/skyguard-logo.png" height="52"> <span
-                    style="color:#04a5e7; font-weight: bold; margin-left:8px">SkyGuard</span></a>
+                    style="color:#04a5e7; font-weight: bold; margin-left:8px">Sky</span><span
+                    style="color:#000000; font-weight: bold;">Guard</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -67,19 +67,9 @@
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#">Products</a>
                     </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
 
                 </ul>
-
-                <a href="https://apps.apple.com/ch/app/skyguard-for-drones/id6477572057?l=en-GB" target="_blank"><img
-                        src="images/appstore.svg" height="36" style="margin-right: 16px;"></a> <a
-                    href="https://play.google.com/store/apps/details?id=aerialtech.skyguard&pli=1" target="_blank"><img
-                        src="images/playstore.svg" height="36"></a>
-
-
-
+                <a href="contact.html"><button class="contactBtn btn-primary">Contact Us</button></a>
             </div>
 
         </div>
@@ -95,15 +85,29 @@
         <div class="carousel-inner">
 
             <div class="carousel-item active" data-bs-interval="10000">
-                <video class="img-fluid" autoplay loop muted>
-                    <source src="images/drone.mp4" type="video/mp4" />
-                </video>
+                <img src="images/banner1.jpg">
 
                 <div class="carousel-caption d-none d-md-block text-light">
                     <span class="productName roboto-medium">SkyGuard</span>
-                    <h1>Take to the skies<br> Risk free</h1>
-                    <p>Trouble free flying for everyone </p>
+                    <h1>Take to the<br>skies Risk free</h1>
+                    <p style="text-transform: uppercase; font-weight: 500; font-size: 18px;">Trouble free flying for
+                        everyone </p>
+
+                    <div class="downloadAppWrapper">
+                        <div class="downloadApptext">download app</div>
+                        <div class="downloadAppIcons">
+                            <div class="Ios"><a
+                                    href="https://apps.apple.com/ch/app/skyguard-for-drones/id6477572057?l=en-GB"
+                                    target="_blank"><img src="images/appstore.svg" height="36"
+                                        style="margin-right: 16px;"></a></div>
+                            <div class="playstore"><a
+                                    href="https://play.google.com/store/apps/details?id=aerialtech.skyguard&amp;pli=1"
+                                    target="_blank"><img src="images/playstore.svg" height="36"></a></div>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
 
         </div>
@@ -117,63 +121,44 @@
         </button> -->
     </div>
 
-    <section class="features py-5">
-        <div class="container">
-            <div class="text-center section-subtitle">Key Attributes</div>
-            <div class="section-title text-center pb-3 mb-3">
-                <h1>Features</h1>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.</p> -->
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3">
-                    <div class="card p-4 h-100">
-                        <div class="rounded-circle rounded-icon mb-4">
-                            <span class="material-symbols-outlined" style="font-size: 3rem;">
-                                flyover
-                            </span>
-                        </div>
-                        <div><h3>Flight path Evaluation</h3></div>
+    <section class="prodFeatures">
+        <div class="container py-3">
+            <div class="row gy-4">
+                <div class="col-lg-3 featuresIconLabel">
+                    <div class="rounded-circle rounded-icon featuresIcon">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">
+                            flyover
+                        </span>
                     </div>
-
+                    <div class="featuresLabel">Flight path<br> Evaluation</div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card p-4 h-100">
-                        <div class="rounded-circle rounded-icon mb-4">
-                            <span class="material-symbols-outlined" style="font-size: 3rem;">
-                                airplanemode_inactive
-                            </span>
-                        </div>
-                        <div><h3>No Fly Area Notifications</h3></div>
+                <div class="col-lg-3 featuresIconLabel">
+                    <div class="rounded-circle rounded-icon featuresIcon">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">
+                            airplanemode_inactive
+                        </span>
                     </div>
+                    <div class="featuresLabel">No Fly Area<br> Notifications</div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card p-4 h-100">
-                        <div class="rounded-circle rounded-icon mb-4">
-                            <span class="material-symbols-outlined" style="font-size: 3rem;">
-                                connecting_airports
-                            </span>
-                        </div>
-                        <div><h3>Suggested Flight Plans</h3></div>
-
+                <div class="col-lg-3 featuresIconLabel">
+                    <div class="rounded-circle rounded-icon featuresIcon">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">
+                            connecting_airports
+                        </span>
                     </div>
+                    <div class="featuresLabel">Flight path<br> Evaluation</div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card p-4 h-100">
-                        <div class="rounded-circle rounded-icon mb-4">
-                            <span class="material-symbols-outlined" style="font-size: 3rem;">
-                                query_stats
-                            </span>
-                        </div>
-                        <div><h3>Real Time Tracking</h3></div>
-
+                <div class="col-lg-3 featuresIconLabel">
+                    <div class="rounded-circle rounded-icon featuresIcon">
+                        <span class="material-symbols-outlined" style="font-size: 2rem;">
+                            query_stats
+                        </span>
                     </div>
+                    <div class="featuresLabel">Flight path<br> Evaluation</div>
                 </div>
             </div>
         </div>
     </section>
-
     <!--     
     <section class="statastics py-5">
         <div class="container">
@@ -194,94 +179,111 @@
         </div>
     </section> -->
 
-    <section class="howItWorks py-5 bg-light-grey">
+    <section class="aboutSec py-5">
         <div class="container">
-            <div class="text-center section-subtitle">Functions</div>
-            <div class="section-title text-center pb-3 mb-3">
-                <h1>How it works</h1>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.</p> -->
-            </div>
-
-            <div class="row gy-3">
+            <div class="row gy-3 gx-5">
                 <div class="col-xl-6">
-                    <div class="row gy-4">
-                        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                            <div class="fuctions-item d-flex">
-                                <div class="icon">
-                                    <span class="material-symbols-outlined" style="font-size: 4rem;">
-                                        conversion_path
-                                    </span>
-                                </div>
-                                <div>
-                                    <div class="title">
-                                        <h3>Plot Your Flight</h3>
+                    <img class="aboutSecImage w-100" src="images/girl-on-mountain.jpg">
+                </div>
+                <div class="col-xl-6 align-items-center">
+                    <div class="section-title pb-3 mb-3">
+                        <h1>Redefining Possibilities: Aerial Tech Empowers Confident, Sustainable Decision-Making in a
+                            Complex World</h1>
+                    </div>
+
+                    <p>In today's intricate landscape, Aerial Tech is committed to elevating the way consumers and
+                        businesses navigate their world.</p>
+                    <p>We strive to empower every decision with certainty and confidence, ensuring actions are not only
+                        confident, but sustainable, compliant, and cost-effective.</p>
+                    <p>Leveraging advanced machine learning, computer vision, and spatial awareness, our trio of
+                        cutting-edge services and products are designed to answer the essential questions of modern
+                        existence.</p>
+                    <p>Together, we redefine what’s possible and bring clarity to complexity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="howItWorks py-5">
+        <div class="container">
+            <div class="text-center section-subtitle text-light">Functions</div>
+            <div class="section-title text-center pb-3 mb-3">
+                <h1 class="text-light">How it works</h1>
+            </div>
+            <div class="row gy-5">
+                <div class="col-lg-6">
+                    <div class="row gy-5">
+                        <div class="col-lg-12">
+                            <div class="howWorksImage" style="background: url('images/how-works-1.jpg') no-repeat;">
+                                <div class="card p-5 howWorksCardInner">
+                                    <div class="cardIcon">
+                                        <span class="material-symbols-outlined">
+                                            route
+                                        </span>
                                     </div>
-                                    <div class="description">Share your planned flight path using our intuitive
-                                        interface.</div>
+                                    <div class="cardTitle">Plot Your Flight</div>
+                                    <div class="description">Share your planned flight path using
+                                        our intuitive interface.</div>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                            <div class="fuctions-item d-flex">
-                                <div class="icon">
-                                    <span class="material-symbols-outlined" style="font-size: 4rem;">
-                                        location_on
-                                    </span>
-                                </div>
-                                <div>
-                                    <div class="title">
-                                        <h3>Map The Area</h3>
+                        <div class="col-lg-12">
+                            <div class="howWorksImage" style="background: url('images/how-works-3.jpg') no-repeat;">
+                                <div class="card p-5 howWorksCardInner">
+                                    <div class="cardIcon">
+                                        <span class="material-symbols-outlined">
+                                            notifications
+                                        </span>
                                     </div>
-                                    <div class="description">Our smart algorithms cross-check your flight path against
-                                        local and national laws, even accounting for real-time updates.</div>
-                                </div>
+                                    <div class="cardTitle">Get Notified</div>
+                                    <div class="description">Obtain a lawful flight path with
+                                        specific advice on heights, no-fly
+                                        zones, weather and noteworthy
+                                        attractions.
 
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
-                            <div class="fuctions-item d-flex">
-                                <div class="icon">
-                                    <span class="material-symbols-outlined" style="font-size: 4rem;">
-                                        notifications
-                                    </span>
-                                </div>
-                                <div>
-                                    <div class="title">
-                                        <h3>Get Notified</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row gy-5">
+                        <div class="col-lg-12">
+                            <div class="howWorksImage" style="background: url('images/how-works-2.jpg') no-repeat;">
+                                <div class="card p-5 howWorksCardInner">
+                                    <div class="cardIcon">
+                                        <span class="material-symbols-outlined">
+                                            location_on
+                                        </span>
                                     </div>
-                                    <div class="description">Obtain a lawful flight path with specific advice on
-                                        heights, no-fly zones, weather and noteworthy attractions.</div>
+                                    <div class="cardTitle">Map The Area</div>
+                                    <div class="description">Our smart algorithms cross-check
+                                        your flight path against local and
+                                        national laws, even accounting for
+                                        real-time updates.
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
-
-                        <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="700">
-                            <div class="fuctions-item d-flex">
-                                <div class="icon">
-                                    <span class="material-symbols-outlined" style="font-size: 4rem;">
-                                        flight_takeoff
-                                    </span>
-                                </div>
-                                <div>
-                                    <div class="title">
-                                        <h3>Fly Fearlessly</h3>
+                        <div class="col-lg-12">
+                            <div class="howWorksImage" style="background: url('images/how-works-4.jpg') no-repeat;">
+                                <div class="card p-5 howWorksCardInner">
+                                    <div class="cardIcon">
+                                        <span class="material-symbols-outlined">
+                                            flight_takeoff
+                                        </span>
                                     </div>
-                                    <div class="description">Embrace the sky with the assurance of compliance with all
-                                        related laws and guidelines.</div>
+                                    <div class="cardTitle">Fly Fearlessly</div>
+                                    <div class="description">Embrace the sky with the assurance
+                                        of compliance with all related laws and guidelines.
+                                    </div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-6 d-flex justify-content-center align-items-center aos-init aos-animate"
-                    data-aos="fade-up" data-aos-delay="800">
-                    <img src="images/features.svg">
                 </div>
             </div>
         </div>
@@ -289,49 +291,52 @@
 
     <section class="application">
         <div class="container py-5">
-            <div class="text-center section-subtitle">Service Areas</div>
-            <div class="section-title text-center pb-3 mb-3">
+            <div class="text-left section-subtitle">Service Areas</div>
+            <div class="section-title text-left pb-3 mb-3">
                 <h1>Applications</h1>
-                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book.</p> -->
             </div>
             <div class="row g-4">
-
-                <div class="col-lg-4">
-                    <div class="card h-100">
-                        <img src="images/event.jpg" class="card-img-top" alt="Events">
-                        <div class="card-body">
-                            <div class="fs-3">Events</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere dui leo,
-                                sollicitudin
-                                eleifend eros tempus sit amet.</p>
+                <div class="col-lg-4 bg-image">
+                    <div class="w-100 card-img-container">
+                        <img src="images/event.jpg" class="w-100">
+                        <div class="position-absolute bottom-0 text-light w-100 applicationCaption">
+                            <div>
+                                <h3 class="m-0 text-uppercase text-center lh-base">Events</h3>
+                                <p class="px-5 text-center">Tristique diam nequhon cuso tortor viverra porttitor pose
+                                </p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100">
-                        <img src="images/tourism.jpg" class="card-img-top" alt="Tourism">
-                        <div class="card-body">
-                            <div class="fs-3">Tourism</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere dui leo,
-                                sollicitudin
-                                eleifend eros tempus sit amet.</p>
+                <div class="col-lg-4 bg-image">
+                    <div class="w-100 card-img-container">
+                        <img src="images/tourism.jpg" width="100%">
+                        <div class="position-absolute bottom-0 text-light w-100 applicationCaption">
+                            <div>
+                                <h3 class="m-0 text-uppercase text-center lh-base">Tourism</h3>
+                                <p class="px-5 text-center">Tristique diam nequhon cuso tortor viverra porttitor pose
+                                </p>
+                            </div>
                         </div>
-
                     </div>
+
                 </div>
-                <div class="col-lg-4">
-                    <div class="card h-100">
-                        <img src="images/serveillance.jpg" class="card-img-top" alt="Surveillance">
-                        <div class="card-body">
-                            <div class="fs-3">Surveillance</div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere dui leo,
-                                sollicitudin
-                                eleifend eros tempus sit amet.</p>
-                        </div>
+                <div class="col-lg-4 bg-image">
+                    <div class="w-100 card-img-container">
+                        <img src="images/serveillance.jpg" width="100%">
 
+                        <div class="position-absolute bottom-0 text-light w-100">
+                            <div class="position-absolute bottom-0 text-light w-100 applicationCaption">
+                                <div>
+                                    <h3 class="m-0 text-uppercase text-center lh-base">Surveillance</h3>
+                                    <p class="px-5 text-center">Tristique diam nequhon cuso tortor viverra porttitor
+                                        pose</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -339,7 +344,7 @@
     </section>
 
 
-    <section class="products bg-light-grey">
+    <section class="products">
         <div class="container py-5">
             <div class="text-center section-subtitle">Products</div>
             <div class="section-title text-center pb-3 mb-3">
@@ -350,7 +355,7 @@
             <div class="row g-4 my-3">
                 <div class="col-lg-4">
                     <div class="card p-3">
-                        <div class="prodImg p-3 text-center">
+                        <div class="prodImg p-3 text-left">
                             <img src="images/skymaster.png" height="70" />
                         </div>
                         <div class="ProdName text-center fs-4 mt-2">SkyMaster</div>
@@ -358,7 +363,8 @@
                             Complete compliance for all your commercial flying needs
                         </div>
                         <div class="text-center fs-6">
-                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming Soon</button></a>
+                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming
+                                    Soon</button></a>
                         </div>
                     </div>
                 </div>
@@ -373,7 +379,8 @@
 
                         </div>
                         <div class="text-center fs-6">
-                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming Soon</button></a>
+                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming
+                                    Soon</button></a>
                         </div>
                     </div>
                 </div>
@@ -387,7 +394,8 @@
                             Detection and tracking <br>to keep you protected
                         </div>
                         <div class="text-center fs-6">
-                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming Soon</button></a>
+                            <a href="#"><button class="btn prodGetStarted rounded-pill w-100 btn-primary">Coming
+                                    Soon</button></a>
                         </div>
                     </div>
                 </div>
@@ -398,39 +406,52 @@
 
 
 
-    <section id="team" class="team">
+    <section id="team" class="team bg-light-grey">
         <div class="container py-5">
-            <div class="text-center section-subtitle mt-3">Experts</div>
-            <div class="section-title text-center pb-3 mb-3">
+            <div class="text-left section-subtitle">Experts</div>
+            <div class="section-title text-left pb-3">
                 <h1>Our Dedicated Team</h1>
             </div>
-            <div class="row g-3">
+            <div class="row gy-3 gx-5">
                 <div class="col-lg-4">
-                    <div class="card team-card text-center h-100 p-3">
+                    <div class="card team-card text-left h-100 p-3">
+                        <div style="column-gap: 10px; display: flex; align-items: flex-end;">
+                            <img src="images/richard.jpg" width="80" class="img-fluid" />
+                            <div class="socials">
+                                <!-- <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-instagram text-dark mx-1"></i> -->
+                                <a href="https://www.linkedin.com/in/dr-richard-e-newman/" target="_blank"><i
+                                        class="bi bi-linkedin text-dark mx-1s"></i></a>
+                                <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
+                            </div>
+                        </div>
 
-                        <img src="images/richard.jpg" width="80" class="img-fluid rounded-circle m-auto" />
+
                         <h3 class="card-title mt-2">Prof. Dr. Richard Newman</h3>
                         <div class="card-subtitle mb-3">Co-Founder and Chief Hardware Evangelist</div>
-                        <div class="card-text mb-4 h-100">
+                        <div class="card-text h-100">
                             Dr. Newman is an American computer scientist, educator, researcher and inventor. He is
                             also a Computer and Network Security Consultant with decades of experience in security
                             architecture, to produce novel and practical solutions for data assurance and
                             provenance.
                         </div>
-                        <div class="socials">
-                            <!-- <i class="bi bi-twitter-x"></i>
-                                <i class="bi bi-instagram text-dark mx-1"></i> -->
-                            <a href="https://www.linkedin.com/in/dr-richard-e-newman/" target="_blank"><i
-                                    class="bi bi-linkedin text-dark mx-1s"></i></a>
-                            <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
-                        </div>
+
 
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card team-card text-center h-100 p-3">
+                    <div class="card team-card text-left h-100 p-3">
 
-                        <img src="images/vitor.jpg" width="80" class="img-fluid rounded-circle m-auto" />
+                        <div style="column-gap: 10px; display: flex; align-items: flex-end;">
+                            <img src="images/vitor.jpg" width="80" class="img-fluid" />
+                            <div class="socials">
+                                <!-- <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-instagram text-dark mx-1"></i> -->
+                                <a href="https://www.linkedin.com/in/vitor-fonseca-6b345999/" target="_blank"><i
+                                        class="bi bi-linkedin text-dark mx-1s"></i></a>
+                                <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
+                            </div>
+                        </div>
                         <h3 class="card-title mt-2">Mr. Vitor Fonseca</h3>
                         <div class="card-subtitle mb-3">Co-Founder and
                             Chief Product Officer</div>
@@ -438,20 +459,23 @@
                             Vitor is a seasoned Architect with experience in enterprise solutions. He has expertise
                             in systems design, development, maintenance and upgrading of complex applications
                         </div>
-                        <div class="socials">
-                            <!-- <i class="bi bi-twitter-x"></i>
-                                <i class="bi bi-instagram text-dark mx-1"></i> -->
-                            <a href="https://www.linkedin.com/in/vitor-fonseca-6b345999/" target="_blank"><i
-                                    class="bi bi-linkedin text-dark mx-1s"></i></a>
-                            <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
-                        </div>
+
 
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card team-card text-center h-100 p-3">
+                    <div class="card team-card text-left h-100 p-3">
 
-                        <img src="images/lukasz.jpg" width="80" class="img-fluid rounded-circle m-auto" />
+                        <div style="column-gap: 10px; display: flex; align-items: flex-end;">
+                            <img src="images/lukasz.jpg" width="80" class="img-fluid" />
+                            <div class="socials">
+                                <!-- <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-instagram text-dark mx-1"></i> -->
+                                <a href="https://www.linkedin.com/in/lukasz-janasz/" target="_blank"><i
+                                        class="bi bi-linkedin text-dark mx-1s"></i></a>
+                                <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
+                            </div>
+                        </div>
                         <h3 class="card-title mt-2">Mr. Lukasz Janasz</h3>
                         <div class="card-subtitle mb-3">Lead Engineer</div>
                         <div class="card-text mb-4 h-100">
@@ -460,14 +484,6 @@
                             startups and big tech companies. He also has experience working in Robotics and Embedded
                             Software/Hardware.
                         </div>
-                        <div class="socials">
-                            <!-- <i class="bi bi-twitter-x"></i>
-                                <i class="bi bi-instagram text-dark mx-1"></i> -->
-                            <a href="https://www.linkedin.com/in/lukasz-janasz/" target="_blank"><i
-                                    class="bi bi-linkedin text-dark mx-1s"></i></a>
-                            <!-- <i class="bi bi-facebook text-dark mx-1"></i> -->
-                        </div>
-
                     </div>
                 </div>
 
@@ -669,28 +685,28 @@
                         <div class="icon text-light">
                             <span class="material-symbols-outlined" style="font-size: 2rem;">
                                 location_on
-                                </span>
+                            </span>
                         </div>
                         <div class="details text-light">
                             <h6>Visit Us</h6>
                             <div class="small">Poststrasse 12, 8700 Küsnacht ZH, Switzerland.</div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="col-lg-4">
                     <div class="contactItems">
                         <div class="icon text-light">
-                            <span class="material-symbols-outlined" style="font-size: 2rem;">                                
-                                    mail
-                            </span>                               
+                            <span class="material-symbols-outlined" style="font-size: 2rem;">
+                                mail
+                            </span>
                         </div>
                         <div class="details text-light">
                             <h6>Email US</h6>
                             <div class="small">info@aerialte.ch</div>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="col-lg-4">
                     <div class="contactItems">
@@ -704,7 +720,7 @@
                             <div class="small">+41 52 228 48 44</div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -720,17 +736,17 @@
                             <a class="nav-link link-secondary active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li>
-                            <a class="nav-link link-secondary" href="#">Products</a>
-                        </li>
-                        <li>
                             <a class="nav-link link-secondary" href="#">About Us</a>
                         </li>
+                        <li>
+                            <a class="nav-link link-secondary" href="#">Products</a>
+                        </li>                      
                         <li>
                             <a class="nav-link link-secondary" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
-            </div>         
+            </div>
 
             <hr class="my-4 bg-light">
             <div class="container py-1">
