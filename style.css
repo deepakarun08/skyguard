@@ -47,6 +47,9 @@
   border: 1px solid #ffffff;
 }
 
+.testimonial{
+  margin-bottom: 64px;
+}
 
 .testimonial .card{
   border-radius: 8px !important;
@@ -70,6 +73,24 @@
   height: 1px;
   background-color: #c5c5c5;
   margin-bottom: 8px;
+}
+
+.testimonial-image{
+  position: absolute;
+  z-index: 3;
+  height: 80%;
+  width: 100%;
+  right: -40px;
+}
+
+.testimonial-image img{
+  border-radius: 6px;
+}
+
+.testimonial-image-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .applicationCaption{
@@ -199,6 +220,10 @@
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 500;
+}
+
+.navbar{
+  border-bottom: 1px solid #d1d1d1;
 }
 
 .navbar .navbar-nav .active{
@@ -365,12 +390,13 @@ position: relative;
   }
 
 
-  .products .container>div{
+  .products .container .row{
     background-color: #313139;
     border-radius: 8px;
     background-image: url(images/stay-tuned.png);
-    background-position: -150px -100px;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    background-size: cover;
     background-blend-mode: exclusion;
   }
 
@@ -664,8 +690,12 @@ position: relative;
     font-weight: normal; font-size: 20px;
   }
 
+  .padding-96{
+    padding-top: 96px;
+  }
   .footer{
-    background-color: #000000;
+    background-color: #f4f7fb;
+    position: relative;
   }
 
   .footer .logo{
@@ -673,13 +703,99 @@ position: relative;
     align-items: center;
   }
 
+  .footer .logo a{
+    text-decoration: none;
+  }
 
+  .footer .container .navlinks{margin: 0 !important; padding: 0; display: block;}
   .footer .container .navlinks li{
-      float: left;
       list-style: none;
   }
 
- 
+  .footer .container .navlinks li a{
+    color: #000000;
+    font-size: 13px;
+    padding-left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.TesticarouselContainer{
+  background-color: #f4f7fb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: end;
+}
+#carouselExampleIndicators{
+  width: 90%;
+}
+
+.quoteAuthor{font-weight: 700;}
+
+
+.quoteAuthor::before{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 48px;
+  margin-bottom: 8px;
+  background-color: #999999;
+}
+
+.testiTitle{
+  color: #40c5f2;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.testiText{
+  font-size: 20px;
+}
+
+
+  .navigateHeading{
+    color: #04a5e7;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .navigateSubHead{
+    color: #000000;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  .contactUL{
+    padding: 0;
+    margin: 0;
+  }
+  .contactUL li{
+    list-style: none;
+    color: #000000;
+    font-size: 13px;
+    padding-left: 0;
+  }
+
+  .copyright{
+    font-size: 11px !important;
+  }
+  
+
+  .policyLinks{display: inline-block;}
+  .policyLinks li{
+    float: left;
+    list-style: none;
+    margin-right: 16px;
+
+  }
+  .policyLinks li a{
+    font-size:11px;
+    text-decoration: none;
+  }
+  
+
 
   .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -811,11 +927,33 @@ position: relative;
 }
 
 .footerContact{
+  position: absolute;
+  z-index: 2;
+  width: 70%;
+  top: -64px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
+.footerContact .container{
+  background-color: #010226;
+  background:url(images/footer-banner-bg.png) bottom -80px right 0 no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 0 64px;
 }
 
 .footerContact .contactItems{
   display: flex;
+}
+
+.footerContactText{
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
 }
 
 .footerContact .contactItems .icon{
