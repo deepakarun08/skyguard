@@ -382,7 +382,7 @@ position: relative;
   border-radius: 8px !important;
   background-color : transparent !important;
   border: none !important;
-  border-left: 1px solid #03a7e9 !important;
+  border-left: 1px solid #ffffff !important;
   border-radius: 0 !important;
 
   }
@@ -394,7 +394,8 @@ position: relative;
 
   .howItWorks{
     background-color: #000000;
-    background-image: url(images/how-worksBG.jpg);
+    background-image: url(images/how-worksBG.png);
+    background-blend-mode: exclusion;
   }
 
   .howWorksImage{
