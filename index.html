@@ -124,7 +124,7 @@
     <section class="prodFeatures">
         <div class="container py-3">
             <div class="row gy-4">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-6 featuresIconLabel">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 featuresIconLabel">
                     <div class="rounded-circle rounded-icon featuresIcon">
                         <span class="material-symbols-outlined" style="font-size: 2rem;">
                             flyover
@@ -132,7 +132,7 @@
                     </div>
                     <div class="featuresLabel">Flight path<br> Evaluation</div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-6 featuresIconLabel">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 featuresIconLabel">
                     <div class="rounded-circle rounded-icon featuresIcon">
                         <span class="material-symbols-outlined" style="font-size: 2rem;">
                             airplanemode_inactive
@@ -140,7 +140,7 @@
                     </div>
                     <div class="featuresLabel">No Fly Area<br> Notifications</div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-6 featuresIconLabel">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 featuresIconLabel">
                     <div class="rounded-circle rounded-icon featuresIcon">
                         <span class="material-symbols-outlined" style="font-size: 2rem;">
                             connecting_airports
@@ -148,9 +148,9 @@
                     </div>
                     <div class="featuresLabel">Suggested <br>
                         Flight Plans
-                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-6 featuresIconLabel">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 featuresIconLabel">
                     <div class="rounded-circle rounded-icon featuresIcon">
                         <span class="material-symbols-outlined" style="font-size: 2rem;">
                             query_stats
@@ -216,7 +216,8 @@
                 <div class="col-lg-6">
                     <div class="row gy-5">
                         <div class="col-lg-12">
-                            <div class="howWorksImage" style="background: url('images/how-works-1.jpg') no-repeat;">
+                            <div class="howWorksImage"
+                                style="background: url('images/how-works-1.jpg') no-repeat; background-size: cover;">
                                 <div class="card p-5 howWorksCardInner">
                                     <div class="cardIcon">
                                         <span class="material-symbols-outlined">
@@ -227,11 +228,21 @@
                                     <div class="description">Share your planned flight path using
                                         our intuitive interface.</div>
                                 </div>
-
+                            </div>
+                            <div class="card p-5 howWorksCardMobile">
+                                <div class="cardIcon">
+                                    <span class="material-symbols-outlined">
+                                        route
+                                    </span>
+                                </div>
+                                <div class="cardTitle">Plot Your Flight</div>
+                                <div class="description">Share your planned flight path using
+                                    our intuitive interface.</div>
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="howWorksImage" style="background: url('images/how-works-3.jpg') no-repeat;">
+                            <div class="howWorksImage"
+                                style="background: url('images/how-works-3.jpg') no-repeat; background-size: cover;">
                                 <div class="card p-5 howWorksCardInner">
                                     <div class="cardIcon">
                                         <span class="material-symbols-outlined">
@@ -247,13 +258,28 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card p-5 howWorksCardMobile">
+                                <div class="cardIcon">
+                                    <span class="material-symbols-outlined">
+                                        notifications
+                                    </span>
+                                </div>
+                                <div class="cardTitle">Get Notified</div>
+                                <div class="description">Obtain a lawful flight path with
+                                    specific advice on heights, no-fly
+                                    zones, weather and noteworthy
+                                    attractions.
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="row gy-5">
                         <div class="col-lg-12">
-                            <div class="howWorksImage" style="background: url('images/how-works-2.jpg') no-repeat;">
+                            <div class="howWorksImage"
+                                style="background: url('images/how-works-2.jpg') no-repeat; background-size: cover;">
                                 <div class="card p-5 howWorksCardInner">
                                     <div class="cardIcon">
                                         <span class="material-symbols-outlined">
@@ -268,9 +294,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card p-5 howWorksCardMobile">
+                                <div class="cardIcon">
+                                    <span class="material-symbols-outlined">
+                                        location_on
+                                    </span>
+                                </div>
+                                <div class="cardTitle">Map The Area</div>
+                                <div class="description">Our smart algorithms cross-check
+                                    your flight path against local and
+                                    national laws, even accounting for
+                                    real-time updates.
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="howWorksImage" style="background: url('images/how-works-4.jpg') no-repeat;">
+                            <div class="howWorksImage"
+                                style="background: url('images/how-works-4.jpg') no-repeat; background-size: cover;">
                                 <div class="card p-5 howWorksCardInner">
                                     <div class="cardIcon">
                                         <span class="material-symbols-outlined">
@@ -283,6 +323,17 @@
                                     </div>
                                 </div>
 
+                            </div>
+                            <div class="card p-5 howWorksCardMobile">
+                                <div class="cardIcon">
+                                    <span class="material-symbols-outlined">
+                                        flight_takeoff
+                                    </span>
+                                </div>
+                                <div class="cardTitle">Fly Fearlessly</div>
+                                <div class="description">Embrace the sky with the assurance
+                                    of compliance with all related laws and guidelines.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -492,40 +543,48 @@
             <div class="section-title text-center pb-3">
                 <h1>What Our Client Says!</h1>
             </div>
-            <div class="row gy-3">     
-                    <div class="col-lg-2 testimonial-image-wrapper">
-                        <div class="testimonial-image">
-                            <img src="images/testi-image.png" class="h-100">
-                        </div>
+            <div class="row gy-3">
+                <div class="col-lg-2 testimonial-image-wrapper">
+                    <div class="testimonial-image">
+                        <img src="images/testi-image.png" class="h-100">
                     </div>
-                    <div class="col-lg-10">
-                        <div class="TesticarouselContainer p-5">                           
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                               
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
+                </div>
+                <div class="col-lg-10">
+                    <div class="TesticarouselContainer p-5">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
                                     <div class="quotes mb-3"><img src="images/quotes.png"></div>
                                     <h3 class="testiTitle">Intuitive App Offers Real-Time Tracking and Compliance</h3>
-                                    <p class="testiText">The app is really intuitive and easy to use. I just key in the area I wish to cover and I get accurate, real time tracking and compliance info that helps me avoid no fly zones and fines.</p>
+                                    <p class="testiText">The app is really intuitive and easy to use. I just key in the
+                                        area I wish to cover and I get accurate, real time tracking and compliance info
+                                        that helps me avoid no fly zones and fines.</p>
                                     <span class="quoteAuthor">Jeff</span>
-                                  </div>
-                                  <div class="carousel-item">
+                                </div>
+                                <div class="carousel-item">
                                     <div class="quotes mb-3"><img src="images/quotes.png"></div>
                                     <h3 class="testiTitle">Skyguard: All-in-One App for Effortless Drone Flying</h3>
-                                   <p class="testiText">Drone flying is just so much more comfortable with Skyguard. I get to focus on just the flying, and I don’t have to look up several things likes paths, weather, restrictions, regulations separately; it’s a all-in-one app!</p>
-                                   <span class="quoteAuthor">Vishal</span>
-                                  </div>
-                                  <div class="carousel-item">
-                                    <div class="quotes mb-3"><img src="images/quotes.png"></div>
-                                    <h3 class="testiTitle">Real-Time Alerts Enhance Drone Planning and Flight Conditions</h3>
-                                    <p class="testiText">The real time notifications are a boon, it helps me plan my drone shots better and it even helps me understand the ideal weather and flying conditions.</p>
-                                    <span class="quoteAuthor">Therese</span>
-                                  </div>
+                                    <p class="testiText">Drone flying is just so much more comfortable with Skyguard. I
+                                        get to focus on just the flying, and I don’t have to look up several things
+                                        likes paths, weather, restrictions, regulations separately; it’s a all-in-one
+                                        app!</p>
+                                    <span class="quoteAuthor">Vishal</span>
                                 </div>
-                                
-                              </div>
+                                <div class="carousel-item">
+                                    <div class="quotes mb-3"><img src="images/quotes.png"></div>
+                                    <h3 class="testiTitle">Real-Time Alerts Enhance Drone Planning and Flight Conditions
+                                    </h3>
+                                    <p class="testiText">The real time notifications are a boon, it helps me plan my
+                                        drone shots better and it even helps me understand the ideal weather and flying
+                                        conditions.</p>
+                                    <span class="quoteAuthor">Therese</span>
+                                </div>
+                            </div>
+
                         </div>
-                    </div>             
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -622,7 +681,7 @@
 
     </section> -->
 
-  
+
 
     <section class="footer padding-96">
         <div class="container pt-5">
@@ -633,18 +692,21 @@
                             <div class="footerContactText">
                                 <span style="font-size: 24px;">We Are Here To Help</span><br>Dont hesitate to contact us
                             </div>
-        
+
                         </div>
-        
-                        <div class="col-lg-4 d-flex justify-content-end align-items-center"><a href="contact.html"><button class="contactBtn btn-primary">Contact Us</button></a></div>
-                    
-                    
+
+                        <div class="col-lg-4 d-flex justify-content-end align-items-center"><a
+                                href="contact.html"><button class="contactBtn btn-primary">Contact Us</button></a></div>
+
+
                     </div>
                 </div>
             </section>
             <div class="row g-5">
                 <div class="col-lg-4">
-                    <div class="logo mb-4"><a href="index.html"><img src="images/skyguard-logo.png" height="48"> <span style="color:#04a5e7; font-size: 20px; font-weight: 700; margin-left: 8px;">Sky</span><span style="color:#000000; font-size: 20px; font-weight: 700;">Guard</span></a></div>
+                    <div class="logo mb-4"><a href="index.html"><img src="images/skyguard-logo.png" height="48"> <span
+                                style="color:#04a5e7; font-size: 20px; font-weight: 700; margin-left: 8px;">Sky</span><span
+                                style="color:#000000; font-size: 20px; font-weight: 700;">Guard</span></a></div>
                     <p class="small">We leverage advanced machine learning, computer vision, and spatial awareness,
                         to deliver our
                         trio of cutting-edge services and products that answer the essential questions of modern
@@ -661,7 +723,7 @@
                         </li>
                         <li>
                             <a class="nav-link link-secondary" href="#">Products</a>
-                        </li>                      
+                        </li>
                         <li>
                             <a class="nav-link link-secondary" href="contact.html">Contact</a>
                         </li>
@@ -672,13 +734,13 @@
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <div class="navigateSubHead mb-2">Visit Us</div>
-                            <ul class="contactUL">                               
+                            <ul class="contactUL">
                                 <li>Poststrasse 12, 8700 Küsnacht ZH, Switzerland.</li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <div class="navigateSubHead mb-2">Email US</div>
-                            <ul class="contactUL">                               
+                            <ul class="contactUL">
                                 <li>Poststrasse 12, 8700 Küsnacht ZH, Switzerland.</li>
                             </ul>
                         </div>
@@ -699,10 +761,11 @@
                         <ul class="policyLinks d-flex justify-content-end">
                             <li><a href="privacy-policy.html" target="_blank" class="text-muted">Privacy Policy</a></li>
                             <li><a href="terms.html" target="_blank" class="text-muted">Terms of Service</a></li>
-                            <li><a href="user-deletion.html" target="_blank" class="text-muted">User Deletion Policy</a></li>
+                            <li><a href="user-deletion.html" target="_blank" class="text-muted">User Deletion Policy</a>
+                            </li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
