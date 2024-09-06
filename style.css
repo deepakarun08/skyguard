@@ -1042,6 +1042,18 @@ transform: rotateY(180deg);
       left: 0;
     }
     
+    .padding-96{
+      padding-top: 0 !important;
+    }
+    
+    .testimonial{
+      margin-bottom: 0 !important;
+    }
+
+    .section-title h1{
+      font-size: 32px !important;
+    }
+    
     .footerContact{
       display: none;
     }
