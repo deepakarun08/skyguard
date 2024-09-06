@@ -72,19 +72,10 @@
 }
 
 .testimonial-image{
-  position: absolute;
-  z-index: 3;
-  height: 80%;
-  width: 100%;
-  right: -40px;
-}
-
-.testimonial-image img{
-  border-radius: 6px;
+  border-radius: 6px 0 0 6px;
 }
 
 .testimonial-image-wrapper{
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -189,19 +180,6 @@
 .productName{
     text-transform: uppercase;
     font-size: 1.4rem;
-    color: #40c5f2;
-  }
-
-  .productLink{
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #40c5f2;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .productLink:hover{
-    text-decoration: underline;
     color: #40c5f2;
   }
 
@@ -386,6 +364,22 @@ position: relative;
   }
 
 
+  .socials{
+    font-size: 24px;
+  }
+  .socials a i{color: #007ebb !important;}
+
+  .coming-soon{
+    position: absolute;
+    right: 0;
+    top:16px;
+    border-radius: 4px 0 0 4px;
+    padding: 4px 10px;
+    background-color: #ffffff;
+    font-size: 11px;    
+  }
+
+
   .products .container .row{
     background-color: #313139;
     border-radius: 8px;
@@ -394,6 +388,7 @@ position: relative;
     background-position: 0 -100px;
     background-size: cover;
     background-blend-mode: exclusion;
+    position: relative;
   }
 
   .products .card{
@@ -403,8 +398,7 @@ position: relative;
   transition: transform .5s ease 0s; */
   border-radius: 8px !important;
   background-color : transparent !important;
-  border: none !important;
-  border-left: 1px solid #ffffff !important;
+  border: 1px solid #ffffff80 !important;
   border-radius: 0 !important;
 
   }
@@ -709,7 +703,6 @@ position: relative;
   }
 
   .footer .container .navlinks li a{
-    color: #000000;
     font-size: 13px;
     padding-left: 0;
     text-transform: uppercase;
@@ -718,7 +711,7 @@ position: relative;
 
 .TesticarouselContainer{
   background-color: #f4f7fb;
-  border-radius: 8px;
+  border-radius: 0 8px 8px 0 ;
   display: flex;
   justify-content: end;
 }
@@ -732,8 +725,8 @@ position: relative;
 .quoteAuthor::before{
   content: "";
   display: block;
-  height: 2px;
-  width: 48px;
+  height: 1px;
+  width: 60px;
   margin-bottom: 8px;
   background-color: #999999;
 }
@@ -1027,6 +1020,9 @@ transform: rotateY(180deg);
 .howWorksCardMobile{
   display: none !important;
 }
+.testi-imageWrapper{
+  overflow: hidden;
+}
 
 
   @media only screen and (max-width: 600px) {
@@ -1040,6 +1036,23 @@ transform: rotateY(180deg);
       position: absolute;
       top: -30px;
       left: 0;
+    }
+
+    
+
+    .testimonial-image{
+      border-radius: 6px 6px 0 0 !important;
+    }
+
+    
+  .products .container .row{
+    border-radius: 0px;
+  }
+
+    .TesticarouselContainer{
+      justify-content: start;
+      padding:1.5rem !important;
+      border-radius:0 0 6px 6px !important
     }
     
     .padding-96{
