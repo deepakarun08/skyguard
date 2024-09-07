@@ -485,6 +485,10 @@ position: relative;
     width: 90%;
   }
 
+  .min-height-30vh{
+    height: 30vh;
+  }
+
   .aboutSec .aboutSecImage{
     border-radius: 8px;
   }
@@ -1033,7 +1037,9 @@ transform: rotateY(180deg);
       left: 0;
     }
 
-    
+    .min-height-30vh{
+      height: unset !important;
+    }
 
     .testimonial-image{
       border-radius: 6px 6px 0 0 !important;
