@@ -173,12 +173,10 @@
 
   .carousel-caption h1{
     font-size: 3rem;
-    text-transform: uppercase;
     font-weight: 900;
   }
 
 .productName{
-    text-transform: uppercase;
     font-size: 1.4rem;
     color: #40c5f2;
   }
@@ -190,7 +188,6 @@
 .downloadApptext{
   font-size: 18px;
   color: #40c5f2;
-  text-transform: uppercase;
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 500;
@@ -376,6 +373,27 @@ position: relative;
     font-size: 11px;    
   }
 
+  .product-heading{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+
+  .SkyGuardProducts .card{
+    -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: transform .5s ease 0s;
+  transition: transform .5s ease 0s;
+  border-radius: 8px !important;
+  }
+
+  .SkyGuardProducts .card:hover{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+
+
 
   .products .container .row{
     background-color: #313139;
@@ -388,23 +406,42 @@ position: relative;
     position: relative;
   }
 
-  .products .card{
+
+  .SkyGuardProducts .card{
   /* -webkit-transform: translateY(0px);
   transform: translateY(0px);
   -webkit-transition: transform .5s ease 0s;
   transition: transform .5s ease 0s; */
   border-radius: 8px !important;
-  background-color : transparent !important;
-  border: 1px solid #ffffff80 !important;
-  border-radius: 0 !important;
-
+  background-color : #ffffff !important;
+  border: 1px solid rgba(0,0,0,.125) !important;
   }
 
-  .products .card:hover{
+  .SkyGuardProducts .card:hover{
     /* -webkit-transform: translateY(-10px);
     transform: translateY(-10px); */
   }
 
+  .products .card{
+    /* -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: transform .5s ease 0s;
+    transition: transform .5s ease 0s; */
+    background-color : transparent !important;
+    border: 1px solid #ffffff80 !important;
+    border-radius: 6px !important;
+    }
+  
+    .products .card:hover{
+      /* -webkit-transform: translateY(-10px);
+      transform: translateY(-10px); */
+    }
+
+  
+  .SkyguardImage img{
+    border-radius: 8px;
+  }
+  
   .howItWorks{
     background-color: #000000;
     background-image: url(images/how-worksBG.png);
@@ -562,6 +599,36 @@ position: relative;
     background-color: #f3f3f3!important;
   }
 
+  .featureCard{
+    background-color: #ffffff;
+    min-height: 150px;
+  }
+
+.featureCard:hover{
+  background-color: #04a5e7 !important;
+  transition: background-color .5s linear;
+  border: none;
+  color: #ffffff;
+}
+
+  .featuresOrder{
+    display: flex;
+    align-items: center;
+    color:#04a5e7;
+    column-gap: 10px;
+  }
+  
+  .featureCard:hover .featuresOrder{color:#ffffff;}
+  .featureCard:hover .featuresOrder span{background-color:#ffffff;}
+  
+  .featuresOrder span{
+    display: block;
+    height:4px;
+    width: 50px;
+    background-color: #04a5e7;
+  }
+  
+
   .commitments .card:hover .rounded-circle, .features .card:hover .rounded-circle{border: 1px solid #04a5e7 !important;}
   .commitments .card span, .features .card span{
     transition: transform 0.6s;
@@ -621,12 +688,12 @@ position: relative;
     border: none;
   }
 
-  .why-aerial .bg-image .card-img-container img{
+  .application .card-img-container img{
     transition: transform .5s;
   }
-
-  .why-aerial .bg-image:hover .card-img-container img{
-    transform: scale(1.3);
+  
+  .application .card-img-container:hover img{
+    transform: scale(1.2);
   }
 
 
