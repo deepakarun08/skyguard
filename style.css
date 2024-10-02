@@ -373,6 +373,21 @@ position: relative;
   }
 
 
+  .socialIcons{
+    display: flex;
+    column-gap: 16px;
+    margin-right: 36px;
+  }
+
+  .socialIcons a{
+    color: #161513;
+  }
+
+  .socialIcons a:hover{
+    color: #40c5f2;
+  }
+
+
   .socials{
     font-size: 24px;
   }
@@ -468,8 +483,8 @@ position: relative;
     height: 344px;
     border-radius: 8px;
     position: relative;
-    background: url('images/how-works-1.jpg');
-    background-size: 100%;    
+    background-size: 100%;
+    background-repeat: no-repeat;    
   } 
 
   .howWorksCardInner{
